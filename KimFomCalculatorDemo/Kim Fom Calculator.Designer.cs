@@ -309,7 +309,7 @@ namespace KimFomCalculatorDemo
             this.Controls.Add(this.btn7);
             this.Controls.Add(this.textInputBox);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Kim Fom Calculator";
             this.ResumeLayout(false);
             this.PerformLayout();
 
