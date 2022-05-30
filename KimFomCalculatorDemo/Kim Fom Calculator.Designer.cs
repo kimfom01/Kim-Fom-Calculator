@@ -308,8 +308,11 @@ namespace KimFomCalculatorDemo
             this.Controls.Add(this.btn8);
             this.Controls.Add(this.btn7);
             this.Controls.Add(this.textInputBox);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Kim Fom Calculator";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Kim Fom Calculator Demo";
             this.ResumeLayout(false);
             this.PerformLayout();
 
